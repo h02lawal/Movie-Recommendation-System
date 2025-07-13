@@ -1,4 +1,4 @@
-I built two movie recommendation systems using Sklearn TfidfVectorizer and Cosine Similarity. 
+I built two movie recommendation systems using Sklearn TfidfVectorizer, ColumnTransformer and Cosine Similarity. 
 
 In the first recommendation system, the TfidfVectorizer created a vector for each overview from each movie, it assigned higher weights to words that were unique within each overview.
 It then used the cosine similarity matrix to compare each overview also assigning scores between 0 and 1 to each overview pair. A score close to 1 indicates similarity 
